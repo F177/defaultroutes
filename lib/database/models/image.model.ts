@@ -1,6 +1,6 @@
-import { create } from "domain"
+
 import { model, Schema, models } from "mongoose"
-import { title } from "process"
+
 
 export interface IImage extends Document {
     title: string;
